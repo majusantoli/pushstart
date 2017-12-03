@@ -1,0 +1,66 @@
+body{
+  transition: 2s;
+}
+
+body.cena1 {
+  background: hsl(210, 100%, 20%);
+}
+
+body.cena2 {
+  background: hsl(330, 100%, 40%);
+}
+
+body.cena3 {
+  background: hsl(210, 100%, 70%);
+}
+
+div.grama{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 44px;
+  background: hsl(120, 100%,30%);
+}
+
+div.bandeira{
+  position: fixed;
+  left: 40%;
+  right: 5px;
+  bottom: 0;
+  top: 86%;
+  height: 72px;
+  background: url("img/bandeira.png") no-repeat;
+  background-size: contain;
+}
+
+div.marin{
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: 0;
+  right: 5px;
+  top: 85%;
+  bottom: 0;
+  background: url("img/mario.png") no-repeat center center;
+  background-size: cover;
+  transition: 2s;
+  animation: tremilicar .1s infinite alternate;
+}
+
+.cena1 div.marin{
+  left: 0;
+}
+
+.cena2 div.marin{
+  left: 40%;
+}
+
+.cena3 div.marin{
+  left: 60%;
+  width: 150px;
+  height: 150px;
+  top: 575px;
+  background: url("img/mario2.png") no-repeat center;
+  background-size: cover;
+}

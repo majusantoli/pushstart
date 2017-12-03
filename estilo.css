@@ -30,7 +30,7 @@ div.bandeira{
   bottom: 0;
   top: 86%;
   height: 72px;
-  background: url("img/bandeira.png") no-repeat;
+  background: url("bandeira.png") no-repeat;
   background-size: contain;
 }
 
@@ -42,7 +42,7 @@ div.marin{
   right: 5px;
   top: 85%;
   bottom: 0;
-  background: url("img/mario.png") no-repeat center center;
+  background: url("mario.png") no-repeat center center;
   background-size: cover;
   transition: 2s;
   animation: tremilicar .1s infinite alternate;
@@ -61,6 +61,6 @@ div.marin{
   width: 150px;
   height: 150px;
   top: 575px;
-  background: url("img/mario2.png") no-repeat center;
+  background: url("mario2.png") no-repeat center;
   background-size: cover;
 }
